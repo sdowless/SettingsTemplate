@@ -13,6 +13,8 @@
 		2332C64E221100870067A0F9 /* SettingsTemplate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2332C64C221100870067A0F9 /* SettingsTemplate.xcdatamodeld */; };
 		2332C650221100870067A0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2332C64F221100870067A0F9 /* Assets.xcassets */; };
 		2332C653221100870067A0F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2332C651221100870067A0F9 /* LaunchScreen.storyboard */; };
+		2332C65E221101600067A0F9 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2332C65D221101600067A0F9 /* SettingsCell.swift */; };
+		2332C660221103600067A0F9 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2332C65F221103600067A0F9 /* UserInfoHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2332C64F221100870067A0F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2332C652221100870067A0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2332C654221100870067A0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2332C65D221101600067A0F9 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		2332C65F221103600067A0F9 /* UserInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		2332C644221100870067A0F9 /* SettingsTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				2332C65C221100990067A0F9 /* Model */,
+				2332C65B221100970067A0F9 /* View */,
+				2332C65A221100940067A0F9 /* Controller */,
 				2332C645221100870067A0F9 /* AppDelegate.swift */,
-				2332C647221100870067A0F9 /* ViewController.swift */,
 				2332C649221100870067A0F9 /* Main.storyboard */,
 				2332C64F221100870067A0F9 /* Assets.xcassets */,
 				2332C651221100870067A0F9 /* LaunchScreen.storyboard */,
@@ -65,6 +71,30 @@
 				2332C64C221100870067A0F9 /* SettingsTemplate.xcdatamodeld */,
 			);
 			path = SettingsTemplate;
+			sourceTree = "<group>";
+		};
+		2332C65A221100940067A0F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2332C647221100870067A0F9 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2332C65B221100970067A0F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2332C65D221101600067A0F9 /* SettingsCell.swift */,
+				2332C65F221103600067A0F9 /* UserInfoHeader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2332C65C221100990067A0F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +170,9 @@
 			files = (
 				2332C64E221100870067A0F9 /* SettingsTemplate.xcdatamodeld in Sources */,
 				2332C648221100870067A0F9 /* ViewController.swift in Sources */,
+				2332C65E221101600067A0F9 /* SettingsCell.swift in Sources */,
 				2332C646221100870067A0F9 /* AppDelegate.swift in Sources */,
+				2332C660221103600067A0F9 /* UserInfoHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
